@@ -1,0 +1,62 @@
+:root {
+	--PrimaryColor: #87cefa;
+	--secondaryColor: #e2edff;
+	--shadow: 1px 1px rgb(0 0 0/0.2);
+}
+
+.jumbotron,
+.text-about,
+.text-contact,
+footer a {
+	text-shadow: var(--shadow);
+}
+
+.mynavbar {
+	background-color: var(--PrimaryColor);
+}
+
+.nav-link {
+	transition: all 0.3s ease-in-out;
+}
+
+.nav-link.active {
+	background-color: transparent !important;
+	color: #171717 !important;
+}
+
+.nav-link:hover {
+	transform: scale(1.3);
+}
+
+.jumbotron {
+	padding-top: 6rem;
+	background-color: var(--secondaryColor);
+}
+
+section {
+	padding-top: 5rem;
+}
+#projects,
+footer {
+	background-color: var(--secondaryColor);
+}
+#projects a,
+footer a {
+	text-decoration: none;
+	color: #1ba8ff;
+	font-weight: bold;
+}
+
+.card {
+	border: none;
+}
+
+.card-body {
+	background-color: white;
+}
+.submit {
+	background-color: var(--PrimaryColor);
+}
+.submit:hover {
+	background-color: #30b0ff;
+}
