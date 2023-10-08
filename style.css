@@ -193,12 +193,11 @@
 
 /* Add smooth transitions for background color changes */
 * {
-    transition: fill .5s ease-in-out, background-color .5s ease-in-out;
+	transition: fill 0.5s ease-in-out, background-color 0.5s ease-in-out,
+		color  0.1s !important;
 }
 
-
 /* Add smooth transitions for other style changes (if needed) */
-
 
 .mynavbar {
 	background-color: var(--PrimaryColor);
